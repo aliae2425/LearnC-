@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\07_Git\\LearnC-\\helloworld\\helloworld.csproj": {}
+    "E:\\07_Git\\LearnC-\\Module1_helloworld\\Module1_helloworld.csproj": {}
   },
   "projects": {
-    "e:\\07_Git\\LearnC-\\helloworld\\helloworld.csproj": {
+    "E:\\07_Git\\LearnC-\\Module1_helloworld\\Module1_helloworld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\07_Git\\LearnC-\\helloworld\\helloworld.csproj",
-        "projectName": "helloworld",
-        "projectPath": "e:\\07_Git\\LearnC-\\helloworld\\helloworld.csproj",
+        "projectUniqueName": "E:\\07_Git\\LearnC-\\Module1_helloworld\\Module1_helloworld.csproj",
+        "projectName": "Module1_helloworld",
+        "projectPath": "E:\\07_Git\\LearnC-\\Module1_helloworld\\Module1_helloworld.csproj",
         "packagesPath": "C:\\Users\\nocar\\.nuget\\packages\\",
-        "outputPath": "e:\\07_Git\\LearnC-\\helloworld\\obj\\",
+        "outputPath": "E:\\07_Git\\LearnC-\\Module1_helloworld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nocar\\AppData\\Roaming\\NuGet\\NuGet.Config",
