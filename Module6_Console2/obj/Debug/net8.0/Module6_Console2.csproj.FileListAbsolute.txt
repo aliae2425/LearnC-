@@ -1,0 +1,15 @@
+E:\07_Git\LearnC-\Module6_Console2\bin\Debug\net8.0\Module6_Console2.exe
+E:\07_Git\LearnC-\Module6_Console2\bin\Debug\net8.0\Module6_Console2.deps.json
+E:\07_Git\LearnC-\Module6_Console2\bin\Debug\net8.0\Module6_Console2.runtimeconfig.json
+E:\07_Git\LearnC-\Module6_Console2\bin\Debug\net8.0\Module6_Console2.dll
+E:\07_Git\LearnC-\Module6_Console2\bin\Debug\net8.0\Module6_Console2.pdb
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.GeneratedMSBuildEditorConfig.editorconfig
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.AssemblyInfoInputs.cache
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.AssemblyInfo.cs
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.sourcelink.json
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.dll
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\refint\Module6_Console2.dll
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.pdb
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\Module6_Console2.genruntimeconfig.cache
+E:\07_Git\LearnC-\Module6_Console2\obj\Debug\net8.0\ref\Module6_Console2.dll
