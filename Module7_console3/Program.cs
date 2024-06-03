@@ -1,8 +1,5 @@
-﻿string[] pallets = { "B14", "A11", "B12", "A13" };
-
-Console.WriteLine("Sorted...");
-Array.Sort(pallets);
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+﻿string value = "The quick brown fox jumps over the lazy dog";
+char[] valueArray = value.ToCharArray();
+Array.Reverse(valueArray);
+string result = new string(valueArray);
+Console.WriteLine(result);
