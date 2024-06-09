@@ -1,0 +1,15 @@
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.GeneratedMSBuildEditorConfig.editorconfig
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.AssemblyInfoInputs.cache
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.AssemblyInfo.cs
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.sourcelink.json
+E:\07_Git\LearnC-\Module9_Function\bin\Debug\net8.0\Module9_Function.exe
+E:\07_Git\LearnC-\Module9_Function\bin\Debug\net8.0\Module9_Function.deps.json
+E:\07_Git\LearnC-\Module9_Function\bin\Debug\net8.0\Module9_Function.runtimeconfig.json
+E:\07_Git\LearnC-\Module9_Function\bin\Debug\net8.0\Module9_Function.dll
+E:\07_Git\LearnC-\Module9_Function\bin\Debug\net8.0\Module9_Function.pdb
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.dll
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\refint\Module9_Function.dll
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.pdb
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\Module9_Function.genruntimeconfig.cache
+E:\07_Git\LearnC-\Module9_Function\obj\Debug\net8.0\ref\Module9_Function.dll
