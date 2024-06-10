@@ -1,24 +1,31 @@
-﻿Console.WriteLine("Generating random numbers:");
-Console.WriteLine("How many random numbers do u want (default 5):");
-string temp = Console.ReadLine();
-if (temp == "") 
+﻿string[,] corporate = 
 {
-    DisplayRandomNumbers();
+    {"Robert", "Bavin"}, {"Simon", "Bright"},
+    {"Kim", "Sinclair"}, {"Aashrita", "Kamath"},
+    {"Sarah", "Delucchi"}, {"Sinan", "Ali"}
+};
+
+string[,] external = 
+{
+    {"Vinnie", "Ashton"}, {"Cody", "Dysart"},
+    {"Shay", "Lawrence"}, {"Daren", "Valdes"}
+};
+
+string externalDomain = "hayworth.com";
+
+for (int i = 0; i < corporate.GetLength(0); i++) 
+{
+    Console.WriteLine(CreateMail(corporate[i, 0], corporate[i, 1]));
 }
-else 
+
+for (int i = 0; i < external.GetLength(0); i++) 
 {
-    DisplayRandomNumbers(Convert.ToInt32(temp));
+    Console.WriteLine(CreateMail(corporate[i, 0], corporate[i, 1], externalDomain));
 }
 
-
-void DisplayRandomNumbers(int count = 5) 
+string CreateMail (string FirstName, string LastName, string Domain = "contoso.com")
 {
-    Random random = new Random();
-
-    for (int i = 0; i < count; i++) 
-    {
-        Console.Write($"{random.Next(1, 100)} ");
-    }
-
-    Console.WriteLine();
+    FirstName = FirstName.ToLower();
+    LastName = LastName.ToLower();
+    return $"{FirstName[0]}{LastName}@{Domain}";
 }
