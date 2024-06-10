@@ -6,3 +6,27 @@ string[] pettingZoo =
     "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws", 
     "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
 };
+
+
+RandomizeAnimals();
+// string[,] group = AssignGroup();
+Console.WriteLine("School A");
+// PrintGroup(group);
+
+foreach(string animal in pettingZoo) 
+{
+    Console.WriteLine(animal);
+}
+
+//Randomize animals
+void RandomizeAnimals() {
+    Random random = new Random();
+    for (int i = 0; i < pettingZoo.Length; i++){
+        int r = random.Next(i ,pettingZoo.Length);
+
+        string temp = pettingZoo[i];
+        pettingZoo[i] = pettingZoo[r];
+        pettingZoo[r] = temp;
+    }
+}
+

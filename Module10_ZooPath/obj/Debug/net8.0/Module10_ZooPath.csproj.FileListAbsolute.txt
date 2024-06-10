@@ -1,0 +1,15 @@
+E:\07_Git\LearnC-\Module10_ZooPath\bin\Debug\net8.0\Module10_ZooPath.exe
+E:\07_Git\LearnC-\Module10_ZooPath\bin\Debug\net8.0\Module10_ZooPath.deps.json
+E:\07_Git\LearnC-\Module10_ZooPath\bin\Debug\net8.0\Module10_ZooPath.runtimeconfig.json
+E:\07_Git\LearnC-\Module10_ZooPath\bin\Debug\net8.0\Module10_ZooPath.dll
+E:\07_Git\LearnC-\Module10_ZooPath\bin\Debug\net8.0\Module10_ZooPath.pdb
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.GeneratedMSBuildEditorConfig.editorconfig
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.AssemblyInfoInputs.cache
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.AssemblyInfo.cs
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.sourcelink.json
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.dll
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\refint\Module10_ZooPath.dll
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.pdb
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\Module10_ZooPath.genruntimeconfig.cache
+E:\07_Git\LearnC-\Module10_ZooPath\obj\Debug\net8.0\ref\Module10_ZooPath.dll
