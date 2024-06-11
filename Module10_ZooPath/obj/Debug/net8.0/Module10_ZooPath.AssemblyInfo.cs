@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Module10_ZooPath")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c8a3b2fb2ebf1da7eba259ad15b3677f4b59148")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9839a8f3ecedabcf0c8b572aff3ba163cf662888")]
 [assembly: System.Reflection.AssemblyProductAttribute("Module10_ZooPath")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Module10_ZooPath")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
