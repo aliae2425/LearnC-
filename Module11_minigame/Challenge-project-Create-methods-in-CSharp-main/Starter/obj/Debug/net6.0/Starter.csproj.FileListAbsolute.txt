@@ -1,0 +1,15 @@
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.exe
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.deps.json
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.runtimeconfig.json
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.dll
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net6.0\Starter.pdb
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.AssemblyInfoInputs.cache
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.AssemblyInfo.cs
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.sourcelink.json
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.dll
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\refint\Starter.dll
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.pdb
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\Starter.genruntimeconfig.cache
+E:\07_Git\LearnC-\Module11_minigame\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net6.0\ref\Starter.dll
