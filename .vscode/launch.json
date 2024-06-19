@@ -1,11 +1,27 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
-            "program": "${workspaceFolder}//Module11_minigame/Challenge-project-Create-methods-in-CSharp-main/Starter/Program.cs",
+            "name": "Launch Module11",
+            "type": "coreclr",
+            "request": "launch",
+            // "preLaunchTask": "buildModule11_minigame",
+            "program": "${workspaceFolder}/Module11_minigame/Challenge-project-Create-methods-in-CSharp-main/Starter/bin/Debug/net8.0/Starter.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Module11_minigame/Challenge-project-Create-methods-in-CSharp-main/Starter",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Launch Module12",
+            "type": "coreclr",
+            "request": "launch",
+            // "preLaunchTask": "buildProject456",
+            "program": "${workspaceFolder}/Module12_Debug/bin/Debug/net8.0/Module12_Debug.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Module12_Debug",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
     ]
 }
