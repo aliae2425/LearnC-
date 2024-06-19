@@ -1,0 +1,15 @@
+E:\07_Git\LearnC-\Module12_Debug\bin\Debug\net8.0\Module12_Debug.exe
+E:\07_Git\LearnC-\Module12_Debug\bin\Debug\net8.0\Module12_Debug.deps.json
+E:\07_Git\LearnC-\Module12_Debug\bin\Debug\net8.0\Module12_Debug.runtimeconfig.json
+E:\07_Git\LearnC-\Module12_Debug\bin\Debug\net8.0\Module12_Debug.dll
+E:\07_Git\LearnC-\Module12_Debug\bin\Debug\net8.0\Module12_Debug.pdb
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.GeneratedMSBuildEditorConfig.editorconfig
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.AssemblyInfoInputs.cache
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.AssemblyInfo.cs
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.sourcelink.json
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.dll
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\refint\Module12_Debug.dll
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.pdb
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\Module12_Debug.genruntimeconfig.cache
+E:\07_Git\LearnC-\Module12_Debug\obj\Debug\net8.0\ref\Module12_Debug.dll
