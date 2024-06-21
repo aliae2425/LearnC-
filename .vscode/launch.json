@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Launch Module11",
             "type": "coreclr",
@@ -16,7 +17,7 @@
             "name": "Launch Module12",
             "type": "coreclr",
             "request": "launch",
-            // "preLaunchTask": "buildProject456",
+            "preLaunchTask": "buildModule12",
             "program": "${workspaceFolder}/Module12_Debug/bin/Debug/net8.0/Module12_Debug.dll",
             "args": [],
             "cwd": "${workspaceFolder}/Module12_Debug",
