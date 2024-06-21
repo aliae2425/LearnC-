@@ -23,6 +23,18 @@
             "cwd": "${workspaceFolder}/Module12_Debug",
             "console": "internalConsole",
             "stopAtEntry": false
+        },
+        {
+            "name": "Launch Module13",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildModule13",
+            "program": "${workspaceFolder}/Module13_Exeption/bin/Debug/net8.0/Module13_Exeption.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/Module13_Exeption",
+            "console": "internalConsole",
+            "stopAtEntry": false
         }
+        
     ]
 }

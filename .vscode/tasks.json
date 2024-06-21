@@ -9,6 +9,15 @@
                 "build",
                 "${workspaceFolder}/Module12_Debug"
             ]
+        },
+        {
+            "label": "buildModule13",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Module13_Exeption"
+            ]
         }
     ]
 }
