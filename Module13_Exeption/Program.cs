@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿double float1 = 3000.0;
+double float2 = 0.0;
+int number1 = 3000;
+int number2 = 0;
+
+try{
+    Console.WriteLine(float1 / float2);
+    Console.WriteLine(number1 / number2);
+}
+catch{
+    Console.WriteLine("attention, division by zero!");
+}
+Console.WriteLine("Exit program");
