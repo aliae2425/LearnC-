@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\07_Git\\LearnC-\\BlazingPizzaSite\\BlazingPizzaSite.csproj",
+      "projectUniqueName": "E:\\07_Git\\LearnC-\\Module16_BlazingPizzaSite\\BlazingPizzaSite.csproj",
       "projectName": "BlazingPizzaSite",
-      "projectPath": "E:\\07_Git\\LearnC-\\BlazingPizzaSite\\BlazingPizzaSite.csproj",
+      "projectPath": "E:\\07_Git\\LearnC-\\Module16_BlazingPizzaSite\\BlazingPizzaSite.csproj",
       "packagesPath": "C:\\Users\\nocar\\.nuget\\packages\\",
-      "outputPath": "E:\\07_Git\\LearnC-\\BlazingPizzaSite\\obj\\",
+      "outputPath": "E:\\07_Git\\LearnC-\\Module16_BlazingPizzaSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nocar\\AppData\\Roaming\\NuGet\\NuGet.Config",
