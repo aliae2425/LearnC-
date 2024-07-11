@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "3V0NhndgaxtJg+0IaSurNZYLIEdks7gW6ivKA77KZ0NnL/TV75QR7JUAZg7wdol6U7oBsF1gbPU14wpB2BHaAw==",
+  "success": false,
+  "projectFilePath": "E:\\07_Git\\LearnC-\\Module17_XAML_1\\Notes\\Notes.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1012",
+      "level": "Error",
+      "message": "La version de la plateforme n'est pas présente pour un ou plusieurs frameworks cibles, même s'ils ont spécifié une plateforme : net8.0-android, net8.0-ios, net8.0-maccatalyst"
+    }
+  ]
+}
