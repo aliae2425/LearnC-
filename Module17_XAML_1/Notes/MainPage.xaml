@@ -4,7 +4,7 @@
              x:Class="Notes.MainPage">
 			 
     <VerticalStackLayout Margin="30,60,30,30">
-    
+
         <Label Text="Notes"
             HorizontalOptions="Center"
             FontAttributes="Bold" />
