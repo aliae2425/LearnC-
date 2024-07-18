@@ -1,0 +1,17 @@
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\bin\Debug\WpfApp1.exe.config
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\bin\Debug\WpfApp1.exe
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\bin\Debug\WpfApp1.pdb
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.AssemblyReference.cache
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\Theme\MenuButtonTheme.baml
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\MainWindow.g.cs
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\App.g.cs
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\App.baml
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\MainWindow.baml
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.g.resources
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.exe
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.pdb
