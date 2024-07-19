@@ -63,7 +63,12 @@
                      Grid.Column="1"
                      Style="{StaticResource ModerneTexBox}"/>
 
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10"/>
+            
         </Grid>
+
 
     </Border>
 </Window>
