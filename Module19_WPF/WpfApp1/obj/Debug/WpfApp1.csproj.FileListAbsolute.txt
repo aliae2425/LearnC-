@@ -15,3 +15,4 @@ E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.exe
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.pdb
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\Theme\TextBoxTheme.baml
