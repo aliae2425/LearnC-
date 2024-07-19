@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\App.xaml
-31124435136
+4-1061984743
 
-7-689685449
+10-421187860
 13-1310406943
-MainWindow.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
+MainWindow.xaml;MVVM\View\HomeView.xaml;Theme\MenuButtonTheme.xaml;Theme\TextBoxTheme.xaml;
 
-False
+True
 

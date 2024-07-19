@@ -12,7 +12,7 @@
                    Foreground="White"
                    FontSize="28"
                    HorizontalAlignment="Left"
-                   Margin="0,0,0,20"/>
+                   Margin="0,0,0,10"/>
 
         <StackPanel Orientation="Horizontal">
             <Border Width="400" Height="200">
@@ -44,9 +44,9 @@
                            Source="/Images/Besta.png" 
                            HorizontalAlignment="Right"/>
                 </Grid>
-                
+
             </Border>
-            
+
             <Border Width="200" Height="200" Margin="50,0,0,0">
                 <Border.Background>
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
@@ -61,24 +61,22 @@
 
                 <Grid>
                     <StackPanel>
-                        <TextBlock Text="IKEA Library"
+                        <TextBlock Text="Duravit"
                                    Foreground="white"
                                    FontSize="28"
                                    Margin="20,10,10,0"/>
-                        <TextBlock Text="Bësta"
+                        <TextBlock Text="D-Neo"
                                    Foreground="white"
                                    FontSize="18"
                                    Margin="20,10,10,0"/>
                     </StackPanel>
-                    
-                    <Image Width="250" 
-                           Height="250"
-                           Source="/Images/Duravit_D-neo.png" Margin="34,10,-84,-60" 
-                           />
+
+                    <Image
+                           Source="/Images/Duravit_D-Neo.png" Margin="29,47,10,-1"/>
                 </Grid>
-                
+
             </Border>
-            
+
 
         </StackPanel>
 
@@ -87,13 +85,120 @@
                    Foreground="White"
                    FontSize="28"
                    HorizontalAlignment="Left"
-                   Margin="0,10,0,20"/>
+                   Margin="0,0,0,10"/>
 
             <StackPanel Orientation="Horizontal">
+
+                <StackPanel.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="Margin" Value="15,0,0,0"/>
+                    </Style>
+                </StackPanel.Resources>
+
+                <Border Width="150" Height="150" Margin="0">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#FF3C7E82" Offset="0.0"/>
+                            <GradientStop Color="#FF31477F" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Border.Clip>
+                        <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0,0,150,150"/>
+                    </Border.Clip>
+
+                    <Grid>
+                        <StackPanel>
+                            <TextBlock Text="D-Code"
+                                   Foreground="white"
+                                   FontSize="20"
+                                   Margin="20,10,10,0"/>
+                        </StackPanel>
+
+                        <Image
+                           Source="/Images/D-code.png" Margin="29,47,10,-1"/>
+                    </Grid>
+                </Border>
                 
+                <Border Width="150" Height="150">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="#FFD44444" Offset="0.0"/>
+                            <GradientStop Color="#FF5D1313" Offset="0.987"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Border.Clip>
+                        <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0,0,150,150"/>
+                    </Border.Clip>
+
+                    <Grid>
+                        <StackPanel>
+                            <TextBlock Text="Lustre"
+                                   Foreground="white"
+                                   FontSize="20"
+                                   Margin="20,10,10,0"/>
+                        </StackPanel>
+
+                        <Image
+                           Source="/Images/luminaire.png" Margin="29,47,10,-1"/>
+                    </Grid>
+                </Border>
+
+                <Border Width="150" Height="150">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="Orange" Offset="0.0"/>
+                            <GradientStop Color="OrangeRed" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Border.Clip>
+                        <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0,0,150,150"/>
+                    </Border.Clip>
+
+                    <Grid>
+                        <StackPanel>
+                            <TextBlock Text="Metod"
+                                   Foreground="white"
+                                   FontSize="20"
+                                   Margin="20,10,10,0"/>
+                        </StackPanel>
+
+                        <Image
+                           Source="/Images/Metod.png" Margin="29,47,10,-1"/>
+                    </Grid>
+                </Border>
+
+                <Border Width="150" Height="150">
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                            <GradientStop Color="Orange" Offset="0.0"/>
+                            <GradientStop Color="OrangeRed" Offset="1"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+
+                    <Border.Clip>
+                        <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0,0,150,150"/>
+                    </Border.Clip>
+
+                    <Grid>
+                        <StackPanel>
+                            <TextBlock Text="Malm"
+                                   Foreground="white"
+                                   FontSize="28"
+                                   Margin="20,10,10,0"/>
+                        </StackPanel>
+
+                        <Image
+                           Source="/Images/Malm.png" Margin="29,47,10,-1"/>
+                    </Grid>
+                </Border>
+
+
             </StackPanel>
         </StackPanel>
 
     </StackPanel>
-    
+
 </UserControl>

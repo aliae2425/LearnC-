@@ -16,3 +16,5 @@ E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInput
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.exe
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\WpfApp1.pdb
 E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\Theme\TextBoxTheme.baml
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\MVVM\View\HomeView.g.cs
+E:\07_Git\LearnC-\Module19_WPF\WpfApp1\obj\Debug\GeneratedInternalTypeHelper.g.cs
