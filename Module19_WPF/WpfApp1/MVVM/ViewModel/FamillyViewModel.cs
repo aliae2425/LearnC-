@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WpfApp1.MVVM.ViewModel
 {
-    internal class HomeViewModel
+    internal class FamillyViewModel
     {
     }
 }

@@ -17,6 +17,10 @@
                 <view:HomeView/>
             </DataTemplate>
 
+            <DataTemplate DataType="{x:Type viewModel:FamillyViewModel}">
+                <view:FamillyView/>
+            </DataTemplate>
+
         </ResourceDictionary>
         
     </Application.Resources>
