@@ -5,18 +5,226 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WpfApp1.MVVM.View"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800"
+             d:DesignHeight="460" d:DesignWidth="800"
              Background="Transparent">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="0.5*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
 
         <Grid.RowDefinitions>
-            <RowDefinition/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="3*" />
+            <RowDefinition Height="2*" />
         </Grid.RowDefinitions>
-            
+
+        <Border Grid.Column="0" Grid.ColumnSpan="2" Width="600"
+                HorizontalAlignment="center">
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,2">
+                    <GradientStop Color="Orange" Offset="0.0"/>
+                    <GradientStop Color="OrangeRed" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.Background>
+
+            <Border.Clip>
+                <RectangleGeometry RadiusX="10" RadiusY="10" Rect="0,0,600,30"/>
+            </Border.Clip>
+
+            <Grid>
+                <StackPanel>
+                    <TextBlock  Text="Mobilier"
+                                Foreground="white"
+                                FontSize="20"
+                                HorizontalAlignment="Center"
+                               />
+                </StackPanel>
+
+            </Grid>
+        </Border>
+
+        <StackPanel Grid.Row="1" Margin="25,25,25,25">
+            <Image Source="/Images/Besta.png"/>
+        </StackPanel>
+
+        <StackPanel  Grid.Row="1" Grid.Column="1" Margin="25,25,25,25">
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Text="Besta"
+                            FontSize="24"
+                            FontFamily="Poppins"
+                            Foreground="White"/>
+                <TextBlock Margin="250,0,0,0" Text="⭐" FontSize="25" Foreground="Orange"/>
+            </StackPanel>
+            <TextBlock Text="Ikea"
+                        FontSize="18"
+                        FontFamily="Poppins"
+                        Foreground="White"/>
+            <TextBlock Margin="0,10,0,0" TextWrapping="Wrap"
+                        TextAlignment="Justify"
+                        Text="Notre rangement modulaire BESTÅ reflète notre façon de nous divertir ces jours-ci, avec beaucoup d’options. Nous avons des supports, des bancs et des agencements pour les téléviseurs muraux, et aussi ceux avec une base. En plus, vous pouvez choisir entre portes ou tiroirs pour un rangement de salon moderne à l’allure soignée et élégante dans un style que vous aimez. "
+                        FontSize="12"
+                        FontFamily="Poppins"
+                        Foreground="White"/>
+            <StackPanel Orientation="Horizontal" Margin="0,10,0,0">
+                <TextBlock Margin="0,0,0,0"
+                           Foreground="LightGray"
+                           Text="Nombre de projet l'utilistant : 5"/>
+                <TextBlock Margin="25,0,0,0"
+                           Foreground="LightGray"
+                           Text="Note : ⭐⭐⭐⭐"/>
+            </StackPanel>
+        </StackPanel>
+
+        <Border Grid.Column="0" Grid.Row="2" Margin="10" Grid.ColumnSpan="2" Width="600"
+                HorizontalAlignment="center" Background="#2B2B2B" CornerRadius="10">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Hauteur" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="0" Grid.Column="1" Text="Largeur" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="0" Grid.Column="2" Text="Profondeur" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="0" Grid.Column="3" Text="Finition" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="60" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="38" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="1" Grid.Column="2" Text="20" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="1" Grid.Column="3" Text="Bois" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="60" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="2" Grid.Column="1" Text="38" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="2" Grid.Column="2" Text="20" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="2" Grid.Column="3" Text="Noir" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="60" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="3" Grid.Column="1" Text="38" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="3" Grid.Column="2" Text="20" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="3" Grid.Column="3" Text="Blanc" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+
+                <TextBlock Grid.Row="4" Grid.Column="0" Text="60" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="4" Grid.Column="1" Text="38" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="4" Grid.Column="2" Text="20" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+                <TextBlock Grid.Row="4" Grid.Column="3" Text="Gris Foncé" 
+                           Foreground="White" 
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="18" FontFamily="Poppins"
+                          />
+
+            </Grid>
+        </Border>
+
+
+
+
     </Grid>
 </UserControl>
