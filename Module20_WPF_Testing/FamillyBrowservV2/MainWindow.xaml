@@ -55,6 +55,17 @@
                                     <MaterialDesign:PackIcon Kind="StarOutline"/>
                                 </StackPanel>
                             </Button>
+                        </ListViewItem> 
+                        
+                        <ListViewItem HorizontalAlignment="Center"
+                                      Margin="0">
+                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                    HorizontalAlignment="Left"
+                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                <StackPanel Margin="-5">
+                                    <MaterialDesign:PackIcon Kind="Search"/>
+                                </StackPanel>
+                            </Button>
                         </ListViewItem>
 
                         <ListViewItem HorizontalAlignment="Center"
