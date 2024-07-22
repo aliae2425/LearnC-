@@ -41,7 +41,18 @@
                                     HorizontalAlignment="Left"
                                     BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
-                                    <MaterialDesign:PackIcon Kind="Tea"/>
+                                    <MaterialDesign:PackIcon Kind="TeaKettleOutline"/>
+                                </StackPanel>
+                            </Button>
+                        </ListViewItem>
+                        
+                        <ListViewItem HorizontalAlignment="Center"
+                                      Margin="0">
+                            <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
+                                    HorizontalAlignment="Left"
+                                    BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
+                                <StackPanel Margin="-5">
+                                    <MaterialDesign:PackIcon Kind="StarOutline"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
@@ -52,7 +63,7 @@
                                     HorizontalAlignment="Left"
                                     BorderBrush="{x:Null}" Background="{x:Null}" Foreground="Black">
                                 <StackPanel Margin="-5">
-                                    <MaterialDesign:PackIcon Kind="CircleSlice3"/>
+                                    <MaterialDesign:PackIcon Kind="ClockOutline"/>
                                 </StackPanel>
                             </Button>
                         </ListViewItem>
@@ -69,7 +80,7 @@
                         </ListViewItem>
 
                         <ListViewItem HorizontalAlignment="Center"
-                                      Margin="0 150 0 0"
+                                      Margin="0 100 0 0"
                                       >
                             <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                     HorizontalAlignment="Left"
@@ -132,7 +143,7 @@
                       Background="{DynamicResource BackgroundBrush}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
-                        <RowDefinition Height="55"/>
+                        <!--<RowDefinition x:Name="FilterPanel" Height="55"/>-->
                         <RowDefinition Height="6*"/>
                     </Grid.RowDefinitions>
 
@@ -172,22 +183,44 @@
 
                     </StackPanel>
 
-                    <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    <!--<StackPanel Grid.Row="1" Orientation="Horizontal"
                                 VerticalAlignment="Center" HorizontalAlignment="Center">
                         <TextBlock Text="Cathegorie : " Foreground="{DynamicResource ForeGroundBrush}"
                                    FontSize="18" FontFamily="Poppins LightBold"/>
 
                         <ComboBox Foreground="{DynamicResource ForeGroundBrush}"
-                                  x:Name="FontsList" Height="20" Width="150"
+                                  x:Name="Categorie" Height="20" Width="150"
+                                  Background="{DynamicResource BackgroundBrush}"  Margin="10 0 10 0">
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Mobilier"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Appareil Sanitaire"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Luminaire"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Fabricants : " Foreground="{DynamicResource ForeGroundBrush}"
+                                   FontSize="18" FontFamily="Poppins LightBold"  Margin="25 0 10 0"/>
+
+                        <ComboBox Foreground="{DynamicResource ForeGroundBrush}"
+                                  x:Name="Fabricants" Height="20" Width="150"
                                   Background="{DynamicResource BackgroundBrush}">
                             <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Mobilier"/>
                             <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Appareil Sanitaire"/>
                             <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Luminaire"/>
                         </ComboBox>
 
-                    </StackPanel>
+                        <TextBlock Text="Note : " Foreground="{DynamicResource ForeGroundBrush}"
+                                   FontSize="18" FontFamily="Poppins LightBold" Margin="25 0 10 0"/>
+
+                        <ComboBox Foreground="{DynamicResource ForeGroundBrush}"
+                                  x:Name="Note" Height="20" Width="150"
+                                  Background="{DynamicResource BackgroundBrush}">
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Mobilier"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Appareil Sanitaire"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Luminaire"/>
+                        </ComboBox>
+
+                    </StackPanel>-->
                         
-                    <Grid x:Name="RenderPages" Grid.Row="2">
+                    <Grid x:Name="RenderPages" Grid.Row="1">
                         
                     </Grid>
                     

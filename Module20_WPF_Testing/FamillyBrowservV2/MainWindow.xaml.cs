@@ -45,7 +45,7 @@ namespace FamillyBrowservV2
         private void Filter_Click(object sender, RoutedEventArgs e)
         {
             _FilterColapsed = !_FilterColapsed;
-            
+
         }
     }
 }
