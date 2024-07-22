@@ -20,9 +20,25 @@ namespace FamillyBrowservV2
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool _isLightTheme = true;
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            _isLightTheme = !_isLightTheme;
+            string newThemePath = _isLightTheme ? "/Themes/LightTheme.xaml" : "/Themes/DarkTheme.xaml";
+            var newTheme = (ResourceDictionary)Application.LoadComponent(resourceLocator: new Uri(newThemePath, UriKind.Relative));
+            Application.Current.Resources.MergedDictionaries.RemoveAt(2);
+            Application.Current.Resources.MergedDictionaries.Add(newTheme);
+        }
+
+        private void CloseApp(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Application.Current.Shutdown();
+        }
+
     }
 }
