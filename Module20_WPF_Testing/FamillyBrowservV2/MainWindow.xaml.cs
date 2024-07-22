@@ -22,6 +22,7 @@ namespace FamillyBrowservV2
     public partial class MainWindow : Window
     {
         private bool _isLightTheme = true;
+        private bool _FilterColapsed = true;
         public MainWindow()
         {
             InitializeComponent();
@@ -41,5 +42,10 @@ namespace FamillyBrowservV2
             System.Windows.Application.Current.Shutdown();
         }
 
+        private void Filter_Click(object sender, RoutedEventArgs e)
+        {
+            _FilterColapsed = !_FilterColapsed;
+            
+        }
     }
 }

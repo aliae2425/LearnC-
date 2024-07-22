@@ -132,10 +132,10 @@
                       Background="{DynamicResource BackgroundBrush}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
-                        <RowDefinition Height="0"/>
+                        <RowDefinition Height="55"/>
                         <RowDefinition Height="6*"/>
                     </Grid.RowDefinitions>
-                    
+
                     <StackPanel Grid.Row="0"
                                 Margin="0 0 50 0"
                                 Orientation="Horizontal"
@@ -150,17 +150,18 @@
                              Margin="0 5 0 5"
                              Grid.Column="1"
                              Style="{StaticResource ModerneTexBox}"
-                             Background="{DynamicResource SideBarBackGroundBrush}" Text="azeaze"/>
+                             Background="{DynamicResource SideBarBackGroundBrush}" Text=""/>
 
                         <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                 BorderBrush="{x:Null}" Background="{x:Null}"
                                 Margin="0 0 25 0"
+                                Click="Filter_Click"
                                 >
                             <StackPanel Margin="-5">
                                 <MaterialDesign:PackIcon Kind="FilterOutline"/>
                             </StackPanel>
                         </Button>
-                        
+
                         <Button Style="{StaticResource MaterialDesignFloatingActionButton}"
                                 BorderBrush="{x:Null}" Background="{x:Null}"
                                 >
@@ -171,7 +172,22 @@
 
                     </StackPanel>
 
-                    <Grid x:Name="RenderPages" Grid.Row="1">
+                    <StackPanel Grid.Row="1" Orientation="Horizontal"
+                                VerticalAlignment="Center" HorizontalAlignment="Center">
+                        <TextBlock Text="Cathegorie : " Foreground="{DynamicResource ForeGroundBrush}"
+                                   FontSize="18" FontFamily="Poppins LightBold"/>
+
+                        <ComboBox Foreground="{DynamicResource ForeGroundBrush}"
+                                  x:Name="FontsList" Height="20" Width="150"
+                                  Background="{DynamicResource BackgroundBrush}">
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Mobilier"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Appareil Sanitaire"/>
+                            <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Luminaire"/>
+                        </ComboBox>
+
+                    </StackPanel>
+                        
+                    <Grid x:Name="RenderPages" Grid.Row="2">
                         
                     </Grid>
                     
