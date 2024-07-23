@@ -3,7 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:FamillyBrowservV2"
-             StartupUri="MainWindow.xaml">
+             xmlns:viewModel="clr-namespace:FamillyBrowservV2.MVVN.ViewModel"
+             xmlns:view="clr-namespace:FamillyBrowservV2.MVVN.View"
+             >
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -14,5 +16,26 @@
                 <ResourceDictionary Source="/Themes/TextBoxTheme .xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:HomeViewModel}">
+            <view:HomeView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:FamilyViewModel}">
+            <view:FamilyView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:BrowseViewModel}">
+            <view:BrowseView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type TypeName=viewModel:SettingsViewModel}">
+            <view:SettingsView/>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type TypeName=viewModel:UserViewModel}">
+            <view:UserViews/>
+        </DataTemplate>
+
     </Application.Resources>
 </Application>
