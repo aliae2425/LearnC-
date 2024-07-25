@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,9 +21,18 @@ namespace MasterClass
     /// </summary>
     public partial class MainWindow : Window
     {
+        private bool _displayFilters = true;
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            _displayFilters = !_displayFilters;
+            FilterRow.Height = _displayFilters ?  new GridLength(0): new GridLength(50);
+
+
         }
     }
 }
