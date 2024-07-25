@@ -5,11 +5,12 @@
              xmlns:local="clr-namespace:FamillyBrowservV2"
              xmlns:viewModel="clr-namespace:FamillyBrowservV2.MVVN.ViewModel"
              xmlns:view="clr-namespace:FamillyBrowservV2.MVVN.View"
+             StartupUri="MainWindow.xaml"
              >
 
     <Application.Resources>
-
-        <DataTemplate DataType="{x:Type TypeName=viewModel:HomeViewModel}">
+        
+        <!--<DataTemplate DataType="{x:Type TypeName=viewModel:HomeViewModel}">
             <view:HomeView/>
         </DataTemplate>
 
@@ -27,7 +28,7 @@
 
         <DataTemplate DataType="{x:Type TypeName=viewModel:UserViewModel}">
             <view:UserViews/>
-        </DataTemplate>
+        </DataTemplate>-->
 
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
