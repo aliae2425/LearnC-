@@ -27,12 +27,9 @@ namespace MasterClass
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
-            _displayFilters = !_displayFilters;
-            FilterRow.Height = _displayFilters ?  new GridLength(0): new GridLength(50);
-
-
+            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
         }
     }
 }

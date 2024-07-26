@@ -7,22 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="55"/>
-            <RowDefinition x:Name="FilterRow" Height="50"/>
-            <RowDefinition Height="4*"/>
-        </Grid.RowDefinitions>
 
-        <StackPanel Orientation="Horizontal"
-                    VerticalAlignment="Center"
-                    HorizontalAlignment="Right">
-            <Label x:Name="myLabel" Margin="0 0 25 0" Content="xxx"/>
-            <Button Content="Filter" Margin="0 0 25 0" Click="Button_Click"/>
-        </StackPanel>
-
-        <Rectangle Grid.Row="1" Fill="red"/>
-        <TextBlock Grid.Row="2" TextWrapping="WrapWithOverflow" Margin="25"
-            Text=" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet magna nec nunc semper vulputate vitae a diam. In lorem quam, tempus sit amet tincidunt non, tempor eget leo. Sed dapibus ipsum ligula, sit amet sodales erat volutpat non. Sed id ex ligula. Ut posuere justo non leo lacinia, vitae pulvinar velit tristique. Morbi in erat justo. Quisque a tortor dictum, rhoncus tortor non, aliquet augue. Mauris vitae placerat leo. Sed iaculis quam erat, et sagittis mauris ullamcorper at. Suspendisse et porta lacus, ac viverra justo. Aliquam faucibus lorem at ipsum condimentum efficitur. Praesent tincidunt sed ex eget tempor. Etiam libero ante, pretium a egestas eget, efficitur sit amet velit. Donec orci elit, lacinia at nibh id, pulvinar facilisis enim. Duis venenatis eget enim egestas scelerisque. Fusce tempus leo a quam tempor eleifend.
- Aliquam massa magna, ultricies sed ultrices nec, facilisis vel sapien. Sed augue nunc, eleifend et erat in, ultrices pellentesque metus. Praesent a dui ac ante accumsan finibus. Nulla in mauris in libero efficitur facilisis. Nunc id tortor sed ante maximus viverra vitae non augue. Fusce suscipit vulputate tortor, ut imperdiet tortor imperdiet non. Quisque auctor justo eget massa scelerisque, sed commodo ligula consequat. Nunc quis turpis ut ipsum tincidunt lobortis. Ut luctus, sem nec ornare consequat, enim tortor gravida lacus, nec convallis ex mi et velit. Praesent sed turpis vel est vestibulum tristique vel non lacus. Vivamus sit amet faucibus metus, ac iaculis ipsum. Fusce quis libero felis. " />
+        <TextBlock>
+            Hello world !
+            <LineBreak/>
+            this is a link <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/aliae2425">My Github profil</Hyperlink>
+        </TextBlock>
     </Grid>
 </Window>
