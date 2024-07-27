@@ -21,15 +21,15 @@ namespace MasterClass
     /// </summary>
     public partial class MainWindow : Window
     {
-        private bool _displayFilters = true;
+        
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            System.Diagnostics.Process.Start(e.Uri.AbsoluteUri);
+            TextFont.FontSize += 1;
         }
     }
 }

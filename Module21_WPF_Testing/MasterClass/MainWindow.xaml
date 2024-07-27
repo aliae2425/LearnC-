@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MasterClass"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300" Width="300">
     <Grid>
 
-        <TextBlock>
-            Hello world !
-            <LineBreak/>
-            this is a link <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/aliae2425">My Github profil</Hyperlink>
-        </TextBlock>
+        <StackPanel VerticalAlignment="Center"
+                    Margin="20"
+                    Orientation="Horizontal">
+            <Button Content="more font size" Click="Button_Click"/>
+            <TextBlock x:Name="TextFont" Text="hello world" FontSize="18" FontFamily="Poppins" Margin="10 0"/>
+
+        </StackPanel>
     </Grid>
 </Window>
