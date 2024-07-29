@@ -154,7 +154,7 @@
                       Background="{DynamicResource BackgroundBrush}">
                     <Grid.RowDefinitions>
                         <RowDefinition Height="1*"/>
-                        <!--<RowDefinition x:Name="FilterPanel" Height="55"/>-->
+                        <RowDefinition x:Name="FilterPanel" Height="55"/>
                         <RowDefinition Height="6*"/>
                     </Grid.RowDefinitions>
 
@@ -194,7 +194,7 @@
 
                     </StackPanel>
 
-                    <!--<StackPanel Grid.Row="1" Orientation="Horizontal"
+                    <StackPanel Grid.Row="1" Orientation="Horizontal"
                                 VerticalAlignment="Center" HorizontalAlignment="Center">
                         <TextBlock Text="Cathegorie : " Foreground="{DynamicResource ForeGroundBrush}"
                                    FontSize="18" FontFamily="Poppins LightBold"/>
@@ -229,9 +229,9 @@
                             <ComboBoxItem Background="{DynamicResource BackgroundBrush}" Content="Luminaire"/>
                         </ComboBox>
 
-                    </StackPanel>-->
+                    </StackPanel>
                         
-                    <Grid x:Name="RenderPages" Grid.Row="1">
+                    <Grid x:Name="RenderPages" Grid.Row="2">
                         
                     </Grid>
                     
