@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dependency.Core
 {
-    internal abstract class ViewModel : ObservableObject
+    public abstract class ViewModel : ObservableObject
     {
 
     }

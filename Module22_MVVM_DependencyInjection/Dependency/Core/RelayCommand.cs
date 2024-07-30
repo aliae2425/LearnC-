@@ -7,7 +7,7 @@ using System.Windows.Input;
 
 namespace Dependency.Core
 {
-    internal class RelayCommand : ICommand
+    public class RelayCommand : ICommand
     {
         private readonly Action<object> _execute;
         private readonly Predicate<object> _canExecute;

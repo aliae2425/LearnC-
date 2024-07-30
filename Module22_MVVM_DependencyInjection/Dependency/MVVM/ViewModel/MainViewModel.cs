@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dependency.MVVM.ViewModel
 {
-    internal class MainViewModel
+    internal class MainViewModel : Core.ViewModel
     {
     }
 }
