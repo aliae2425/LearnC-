@@ -25,6 +25,9 @@ namespace Dependency.Services
             private set
             {
                 _currentView = value;
+
+
+
                 OnPropertyChanged();
             }
         }
